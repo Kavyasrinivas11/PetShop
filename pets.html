@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetStore</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-color: aliceblue;">
+    <header>
+        <h1>
+            <i class="fa-solid fa-paw fa-beat-fade"></i>&nbsp;&nbsp;PetStore
+        </h1>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contacts.html">Contacts</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+    </header>
+    <section id="cat">
+        <marquee width="100%" direction="left" height="100px" scrollamount="10" behavior="scroll" style="margin:0; padding:0; white-space:nowrap;">
+  <h1 style="font-size:40px; font-family:'Playwrite PL', cursive; display:inline-block; margin:0; padding:0; white-space:nowrap;">
+    Categorized Pets
+  </h1>
+</marquee>
+        <h4 style="font-size:30px;font-family: Playwrite PL, cursive;color:#0099ff;">Dogs</h4>
+        <div class="row" style="background-color: rgba(0, 96, 128, 0.53);height:530px;">
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.pELB4Jpx1sE6MI6L78gQpAHaIh?w=175&h=200&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2>Labrador Retriever</h2>
+                <h3>₹25,000 – ₹60,000</h3>
+                <p>Friendly, intelligent, and loyal , perfect for families and active owners.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.mQ2z-S2zfDtBqtUwHrWgcgHaHa?w=201&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="">
+                <h2>Pomeranian</h2>
+                <h3>₹7,000 – ₹35,000</h3>
+                <p>Fluffy, alert, and full of personality, perfect for small spaces.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.0zkeH33AXKbT-umoRbOnbwHaE7?w=278&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2>German Shepherd</h2>
+                <h3>₹20,000 – ₹80,000</h3>
+                <p>Courageous and obedient, known for loyalty and excellent guarding skills.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.5GvIoCRvk2q9AxT2yJtETAHaFu?w=224&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2>Rottweiler</h2>
+                <h3>₹25,000 – ₹70,000</h3>
+                <p>Strong, confident, and protective, a loyal guardian for your home.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+        <h4 style="font-size:30px;font-family: Playwrite PL, cursive;color: #009999;">Cats</h4>
+        <div class="row" style="background-color: rgba(0, 153, 204, 0.53);height:530px;">
+            <div class="cols">
+                <img src="data:image/webp;base64,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"
+                    alt="">
+                <h2>Persian Cat</h2>
+                <h3>₹15,000 – ₹50,000</h3>
+                <p>Long-haired beauty with a calm and affectionate personality.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.PfsVgnmTWJF_0ZSonpTJBwHaEL?w=282&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2>Indian / Domestic Cat</h2>
+                <h3>₹2,000 – ₹8,000</h3>
+                <p>Low-maintenance, playful, and well-suited for Indian climate .</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.0EfADn8NgwvIJk4RKWjJ1AHaHa?r=0&pid=ImgDet&w=184&h=184&c=7&dpr=1.3&o=7&rm=3"
+                    alt="">
+                <h2>Himalayan Cat</h2>
+                <h3>₹18,000 – ₹50,000</h3>
+                <p>Mix of Persian and Siamese,fluffy, friendly,and strikingly beautiful.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.QjKIhgcQEtpl5ZKbyaC6kAHaHZ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="">
+                <h2>British Shorthair</h2>
+                <h3>₹30,000 – ₹70,000</h3>
+                <p>Round-faced,and easygoing,a charming,low-maintenance cat.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+        <h4 style="font-size:30px;font-family: Playwrite PL, cursive;color:#336699;">Hamsters / Rats</h4>
+        <div class="row" style="background-color: rgba(0, 153, 153, 0.53);height:530px;">
+            <div class="cols">
+                <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMy0wNC9weDgxOTMxNC1pbWFnZS0wMS1qb2IxODM1XzEuanBn.jpg"
+                    alt="">
+                <h2>Gerbil</h2>
+                <h3>₹500 – ₹1,200</h3>
+                <p>Playful, curious, and active – great for watching and interacting.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.dMkda4xNK2WTgCFkz4VjBgAAAA?r=0&pid=ImgDet&w=184&h=218&c=7&dpr=1.3&o=7&rm=3"
+                    alt="">
+                <h2>Chinese Hamster</h2>
+                <h3>₹350 – ₹900</h3>
+                <p>Slender-bodied with a long tail, gentle and curious nature.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://cdn.webshopapp.com/shops/36856/files/391742066/syrische-hamster-goudhamster.png"
+                    alt="">
+                <h2>Golden Hamster</h2>
+                <h3>₹300 – ₹800</h3>
+                <p>Friendly, easy to handle, and comes in many colors,perfect for beginners.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.HxFLFI4wwhqHT84MAmVyIAHaGe?w=182&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2> White Dwarf Hamster</h2>
+                <h3>₹350 – ₹900</h3>
+                <p>Small, adorable, and can change fur color in winter, very playful.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+        <h4 style="font-size:30px;font-family: Playwrite PL, cursive;color: rgb(55, 55, 123);">Budgeriers </h4>
+        <div class="row" style="background-color: rgba(0, 204, 255, 0.53);height:530px;">
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP.Yj-LoQtzEOHRxwsg3d0MxwAAAA?w=175&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2>Normal Green Budgie</h2>
+                <h3>₹500 – ₹1,200</h3>
+                <p>Classic green with yellow face – hardy and friendly, perfect for beginners.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://th.bing.com/th/id/OIP._5hBAzx__Lu3X7TwzMXqaQAAAA?w=192&h=192&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                    alt="">
+                <h2>Blue Budgie</h2>
+                <h3>₹600 – ₹1,500</h3>
+                <p>Beautiful sky-blue plumage with gentle temperament.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://img1.wsimg.com/isteam/ip/370a9153-db0d-4f86-ad90-daee359ed654/2163225685-huge.jpg"
+                    alt="">
+                <h2>Rainbow Budgie</h2>
+                <h3>₹1,200 – ₹3,000</h3>
+                <p>Stunning mix of blue, yellow, and pastel shades , truly unique.</p>
+                <button>View Details</button>
+            </div>
+            <div class="cols">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.rm_1R0dwB-LOW576nAJBIgHaE7?r=0&w=2048&h=1365&rs=1&pid=ImgDetMain&o=7&rm=3"
+                    alt="">
+                <h2> Cinnamon Budgie</h2>
+                <h3>₹900 – ₹2,200</h3>
+                <p>Light brown markings giving a warm, soft look.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+    </section>
+     <footer style="margin-top: 80px;">
+      <div class="row" style="align-items: center;">
+        <div class="cl">
+          <ul type="none">
+            <li>Subscribe</li><br>
+            <li><!-- From Uiverse.io by OnlyCodeChannel --> 
+<div class="searchBox">
+
+            <input class="searchInput" type="text" name="" placeholder="Email">
+            <button class="searchButton" href="#">
+                   
+                  
+
+                               <i class="fa-solid fa-arrow-right"></i>
+  <g clip-path="url(#clip0_2_17)">
+    <g filter="url(#filter0_d_2_17)">
+      <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139" height="29.7139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="4"></feOffset>
+      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="out"></feComposite>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_17"></feBlend>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17" result="shape"></feBlend>
+    </filter>
+    <clipPath id="clip0_2_17">
+      <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
+    </clipPath>
+  </defs>
+</svg>
+            </button>
+        </div>
+        </li><br><br>
+            <li><i class="fa-brands fa-facebook"></i>&nbsp;<i class="fa-brands fa-instagram"></i>&nbsp;
+            <i class="fa-brands fa-pinterest"></i>&nbsp;<i class="fa-brands fa-youtube"></i>
+          &nbsp;<i class="fa-brands fa-tiktok"></i></li><br>
+            <li>Explore our sister site</li>
+            <li><strong><i>Daitool</i></strong></li>
+          </ul>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="cl">
+          <ul type="none">
+            <strong><li>Explore</li></strong><br>
+            <li>Dog</li>
+            <li>Cat</li>
+            <li>Traditional Wear</li>
+            <li>Personalized Items</li>
+            <li>Paws Blogs</li>
+          </ul>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="cl">
+          <ul type="none">
+            <strong><li>Need Help ?</li></strong><br>
+            <li>Track Your Order</li>
+            <li>Privacy Policy</li>
+            <li>Returns & Refunds</li>
+          </ul>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="cl">
+          <ul type="none">
+            <strong><li>Trending Links</li></strong><br>
+            <li>Dog Toys</li>
+            <li>Tuxedo Bandana</li>
+            <li>Rainwear</li>
+            <li>Cat Toys</li>
+          </ul>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="cl">
+          <ul type="none">
+            <strong><li>Help</li></strong><br>
+            <li>Shipping & Delivery</li>
+            <li>Returns & Exchanges</li>
+            <li>Help Center</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </footer>   
+</body>
+
+</html>

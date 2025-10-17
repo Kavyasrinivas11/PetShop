@@ -1,0 +1,310 @@
+*{
+    padding:0;
+    margin:0;
+    font-size:Roboto Slab, serif;
+}
+body{
+    /* background-color: rgba(150, 177, 240, 0.53); */
+        background-color: rgba(181, 201, 248, 0.53);
+
+}
+
+header{
+    margin-top: 30px;
+    width:99%;
+    height:80px;
+    display: flex;
+    background-color:black;
+    color: antiquewhite;
+    position: sticky;
+    top:40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    z-index:1;
+    margin-bottom: 30px;
+}
+header  h1{
+    margin-left: 30px;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin: 40px;
+    list-style: none;
+    font-size: x-large;
+    margin-left: 25px;
+}
+header a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+header a:hover{
+    text-decoration: none;
+    color: black;
+    background-color:rgb(248, 246, 244);
+    border-radius: 10px;
+}
+#ban1{
+    background-image: url('https://assets.petco.com/petco/image/upload/f_auto,q_auto:best/20off49-121323-bg-935x478');
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#ban1 div{
+    position:absolute;
+    font-size:x-large;
+    left:10%;
+    top:50%;
+   background-color:#dbe4e5bf;
+    border-radius: 30px;
+    padding: 60px;
+    box-shadow:6px 7px 9px  rgb(21, 20, 20);
+} 
+#ban1 div h1{
+    color: rgb(18, 24, 118);
+    text-shadow: 3px 5px 7px rgb(17, 248, 248);
+}
+#ban1 button{
+    width:100px;
+    height: 50px;
+    margin-left: 250px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 15px;
+    color:rgb(190, 189, 187) ; 
+    background-color:black;
+}
+#ban1 button:hover{
+    color:black;
+    background-color:rgb(234, 228, 228);
+   
+}
+#cat{
+    margin-top: 40px;
+}
+#cat h1,#cat h4 {
+    text-align: center;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(53, 51, 111);
+    width:90%;
+    height:420px;
+    margin-left: 80px;
+    border-radius: 40px;
+    margin-top: 0; /* remove any top margin */
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+.col{
+    width: 280px;
+    height: 380px;
+    background-color: ivory;
+    margin: 20px;
+    border-radius: 30px;
+}
+.col img{
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+}
+.col h2,.col h3{
+    text-align: center;
+    padding: 20px;
+}
+.col p{
+    padding: 20px;
+}
+.col button{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    border-radius:20px;
+    margin: 10px 85px;
+    border: 2px solid;
+}
+
+.col button:hover{
+    background-color:rgb(54, 52, 52);
+    color:white;
+}
+.cols{
+    width: 280px;
+    height: 460px;
+    transition: transform 0.3s ease;
+    background-color: rgb(169, 215, 219);
+    margin: 20px;
+    border-radius: 30px;
+}
+.cols:hover{
+    transform: scale(1.1);
+}
+
+.cols img{
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+}
+.cols h2,.cols h3{
+    text-align: center;
+    padding: 10px;
+}
+.cols p{
+    padding: 15px;
+    text-align:center;
+}
+.cols button{
+    color: black;
+    background-color:aliceblue;
+    padding: 9px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius:20px;
+    margin: 10px 85px;
+}
+
+.cols button:hover{
+    background-color:rgb(54, 52, 52);
+    color:white;
+    transition:all ease-in-out 0.4s;
+}
+
+
+.rows{
+    display: flex;
+    justify-content: space-evenly;
+    width:90%;
+    height:420px;
+    border-radius: 40px;
+    margin:90px;
+}
+form{
+  margin-left: 78px;
+  align-items: center;
+  width:490px;
+  height: 750px;
+border-radius: 30px;
+margin-bottom: 20%;
+background: linear-gradient(145deg, #242846, #1e223b);
+
+}
+form input,textarea{
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 100px;
+  width:300px;
+  height:55px;
+  color: #dbe4e5bf;
+  border-radius:10px;
+  border: #2a2c41;
+background: #1b1d37;
+}
+form select{
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 100px;
+  width:300px;
+  height:55px;
+  border-radius:10px;
+  color: #dbe4e5bf;
+  border: #2a2c41;
+background: #1b1d37;
+}
+form button{
+    align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 170px;
+  width:150px;
+  height:50px;
+  color: #030334;
+  font-size: 18px;
+  border-radius:20px;
+  font-weight: bold;
+  border: #fff;
+background: white;
+}
+form button:hover{
+    background: azure;
+    color: gray;
+}
+
+
+
+
+
+footer{
+  height:420px;
+  width:100%;
+  color:#fff;
+  background-color: rgb(53, 51, 111);;
+}
+footer ul{
+  text-align: left;
+  font-size:large;
+  
+}
+.vertical-line {
+  width: 2px;               
+  height: 300px;            
+  background-color: white;  
+}
+
+/* From Uiverse.io by OnlyCodeChannel */ 
+.searchBox {
+  display: flex;
+  max-width: 230px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #2f3640;
+  border-radius: 50px;
+  position: relative;
+}
+
+.searchButton {
+  color: white;
+  position: absolute;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--gradient-2, linear-gradient(90deg, #cb1b1b 0%, #3d0b0b 100%));
+  border: 0;
+  display: inline-block;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+/*hover effect*/
+button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+/*button pressing effect*/
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+}
