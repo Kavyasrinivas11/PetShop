@@ -45,7 +45,8 @@ header a:hover{
     text-decoration: none;
     color: black;
     background-color:rgb(248, 246, 244);
-    border-radius: 10px;
+    border-radius: 25px;
+    padding:10px;
 }
 #ban1{
     background-image: url('https://assets.petco.com/petco/image/upload/f_auto,q_auto:best/20off49-121323-bg-935x478');
